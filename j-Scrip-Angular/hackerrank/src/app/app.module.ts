@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { Nubank1Component } from './nubank1/nubank1.component';
 import { FizzBuzzComponent } from './fizz-buzz/fizz-buzz.component';
 import { SalesByMatchComponent } from './sales-by-match/sales-by-match.component';
+import { CoutingValeyComponent } from './couting-valey/couting-valey.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     Nubank1Component,
     FizzBuzzComponent,
-    SalesByMatchComponent
+    SalesByMatchComponent,
+    CoutingValeyComponent
   ],
   imports: [
     BrowserModule,
