@@ -8,6 +8,7 @@ import { FizzBuzzComponent } from './fizz-buzz/fizz-buzz.component';
 import { SalesByMatchComponent } from './sales-by-match/sales-by-match.component';
 import { CoutingValeyComponent } from './couting-valey/couting-valey.component';
 import { JumpingOnTheCloudsComponent } from './jumping-on-the-clouds/jumping-on-the-clouds.component';
+import { RepeatedStringComponent } from './repeated-string/repeated-string.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { JumpingOnTheCloudsComponent } from './jumping-on-the-clouds/jumping-on-
     FizzBuzzComponent,
     SalesByMatchComponent,
     CoutingValeyComponent,
-    JumpingOnTheCloudsComponent
+    JumpingOnTheCloudsComponent,
+    RepeatedStringComponent
   ],
   imports: [
     BrowserModule,
