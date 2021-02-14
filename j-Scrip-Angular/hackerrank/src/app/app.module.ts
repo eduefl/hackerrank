@@ -7,6 +7,7 @@ import { Nubank1Component } from './nubank1/nubank1.component';
 import { FizzBuzzComponent } from './fizz-buzz/fizz-buzz.component';
 import { SalesByMatchComponent } from './sales-by-match/sales-by-match.component';
 import { CoutingValeyComponent } from './couting-valey/couting-valey.component';
+import { JumpingOnTheCloudsComponent } from './jumping-on-the-clouds/jumping-on-the-clouds.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CoutingValeyComponent } from './couting-valey/couting-valey.component';
     Nubank1Component,
     FizzBuzzComponent,
     SalesByMatchComponent,
-    CoutingValeyComponent
+    CoutingValeyComponent,
+    JumpingOnTheCloudsComponent
   ],
   imports: [
     BrowserModule,
