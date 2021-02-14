@@ -9,6 +9,7 @@ import { SalesByMatchComponent } from './sales-by-match/sales-by-match.component
 import { CoutingValeyComponent } from './couting-valey/couting-valey.component';
 import { JumpingOnTheCloudsComponent } from './jumping-on-the-clouds/jumping-on-the-clouds.component';
 import { RepeatedStringComponent } from './repeated-string/repeated-string.component';
+import { A2DArrayDsComponent } from './a2-darray-ds/a2-darray-ds.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RepeatedStringComponent } from './repeated-string/repeated-string.compo
     SalesByMatchComponent,
     CoutingValeyComponent,
     JumpingOnTheCloudsComponent,
-    RepeatedStringComponent
+    RepeatedStringComponent,
+    A2DArrayDsComponent
   ],
   imports: [
     BrowserModule,
