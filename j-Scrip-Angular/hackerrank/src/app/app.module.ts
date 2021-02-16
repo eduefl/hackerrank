@@ -10,6 +10,7 @@ import { CoutingValeyComponent } from './couting-valey/couting-valey.component';
 import { JumpingOnTheCloudsComponent } from './jumping-on-the-clouds/jumping-on-the-clouds.component';
 import { RepeatedStringComponent } from './repeated-string/repeated-string.component';
 import { A2DArrayDsComponent } from './a2-darray-ds/a2-darray-ds.component';
+import { LeftRotationComponent } from './left-rotation/left-rotation.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { A2DArrayDsComponent } from './a2-darray-ds/a2-darray-ds.component';
     CoutingValeyComponent,
     JumpingOnTheCloudsComponent,
     RepeatedStringComponent,
-    A2DArrayDsComponent
+    A2DArrayDsComponent,
+    LeftRotationComponent
   ],
   imports: [
     BrowserModule,
