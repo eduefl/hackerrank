@@ -12,6 +12,7 @@ import { RepeatedStringComponent } from './repeated-string/repeated-string.compo
 import { A2DArrayDsComponent } from './a2-darray-ds/a2-darray-ds.component';
 import { LeftRotationComponent } from './left-rotation/left-rotation.component';
 import { NewYearCaosComponent } from './new-year-caos/new-year-caos.component';
+import { MinimumSwaps2Component } from './minimum-swaps2/minimum-swaps2.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NewYearCaosComponent } from './new-year-caos/new-year-caos.component';
     RepeatedStringComponent,
     A2DArrayDsComponent,
     LeftRotationComponent,
-    NewYearCaosComponent
+    NewYearCaosComponent,
+    MinimumSwaps2Component
   ],
   imports: [
     BrowserModule,
