@@ -11,6 +11,7 @@ import { JumpingOnTheCloudsComponent } from './jumping-on-the-clouds/jumping-on-
 import { RepeatedStringComponent } from './repeated-string/repeated-string.component';
 import { A2DArrayDsComponent } from './a2-darray-ds/a2-darray-ds.component';
 import { LeftRotationComponent } from './left-rotation/left-rotation.component';
+import { NewYearCaosComponent } from './new-year-caos/new-year-caos.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { LeftRotationComponent } from './left-rotation/left-rotation.component';
     JumpingOnTheCloudsComponent,
     RepeatedStringComponent,
     A2DArrayDsComponent,
-    LeftRotationComponent
+    LeftRotationComponent,
+    NewYearCaosComponent
   ],
   imports: [
     BrowserModule,
