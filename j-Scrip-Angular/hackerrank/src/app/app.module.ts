@@ -13,6 +13,7 @@ import { A2DArrayDsComponent } from './a2-darray-ds/a2-darray-ds.component';
 import { LeftRotationComponent } from './left-rotation/left-rotation.component';
 import { NewYearCaosComponent } from './new-year-caos/new-year-caos.component';
 import { MinimumSwaps2Component } from './minimum-swaps2/minimum-swaps2.component';
+import { ArrayManipulationComponent } from './array-manipulation/array-manipulation.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MinimumSwaps2Component } from './minimum-swaps2/minimum-swaps2.componen
     A2DArrayDsComponent,
     LeftRotationComponent,
     NewYearCaosComponent,
-    MinimumSwaps2Component
+    MinimumSwaps2Component,
+    ArrayManipulationComponent
   ],
   imports: [
     BrowserModule,
