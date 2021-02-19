@@ -20,7 +20,7 @@ export class NewYearCaosComponent implements OnInit {
     aAux = this.newOrder(q);
 
     for (let index = 0; index < aAux.length; index++) {
-      nIndie = aAux.findIndex(x => x === q[index]);
+      nIndie = aAux.findIndex(x => x === q[index]);//ascan
       if (nIndie > index) {
         nDif = (nIndie - index);
         if (nDif <= 2) {
