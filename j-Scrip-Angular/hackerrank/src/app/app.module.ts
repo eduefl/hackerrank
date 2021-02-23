@@ -15,6 +15,7 @@ import { NewYearCaosComponent } from './new-year-caos/new-year-caos.component';
 import { MinimumSwaps2Component } from './minimum-swaps2/minimum-swaps2.component';
 import { ArrayManipulationComponent } from './array-manipulation/array-manipulation.component';
 import { RansonNoteComponent } from './ranson-note/ranson-note.component';
+import { TwoStringsComponent } from './two-strings/two-strings.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { RansonNoteComponent } from './ranson-note/ranson-note.component';
     NewYearCaosComponent,
     MinimumSwaps2Component,
     ArrayManipulationComponent,
-    RansonNoteComponent
+    RansonNoteComponent,
+    TwoStringsComponent
   ],
   imports: [
     BrowserModule,
