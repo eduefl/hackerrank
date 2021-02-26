@@ -16,6 +16,7 @@ import { MinimumSwaps2Component } from './minimum-swaps2/minimum-swaps2.componen
 import { ArrayManipulationComponent } from './array-manipulation/array-manipulation.component';
 import { RansonNoteComponent } from './ranson-note/ranson-note.component';
 import { TwoStringsComponent } from './two-strings/two-strings.component';
+import { SherlockComponent } from './sherlock/sherlock.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { TwoStringsComponent } from './two-strings/two-strings.component';
     MinimumSwaps2Component,
     ArrayManipulationComponent,
     RansonNoteComponent,
-    TwoStringsComponent
+    TwoStringsComponent,
+    SherlockComponent
   ],
   imports: [
     BrowserModule,
