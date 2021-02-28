@@ -1,0 +1,42 @@
+<div style="background-color:black; color:goldenrod;">
+  <button (click)="countTriplets([ 1, 2, 2, 4 ],2)">Conta troika 2 </button>
+  <button (click)="countTriplets([ 1, 5, 5, 25,125 ],5)">Conta troika 5 </button>
+  <button (click)="countTriplets([ 1, 3, 9, 9,27,81 ],3)">Conta troika 3 </button>
+  <button (click)="countTriplets([ 1,4,16,64 ],4)">Conta troika 4 </button>
+  <button (click)="countTriplets([ 1,3,4,4,4,4,4,4,8,10,12,16,16,16,16,16,48,48,48,48,64,64,64,64,64,64,64,256,256,256,256 ],4)">Conta troika teste </button>
+  <button (click)="countTripletsAlpha([ 1,3,4,4,4,4,4,4,8,10,12,16,16,16,16,16,48,48,48,48,64,64,64,64,64,64,64,256,256,256,256 ],4)">Conta troika teste </button>
+  <button (click)="countTripletsAlpha([ 1, 3, 9, 9,27,81 ],3)">Conta troika 3 </button>
+  <button (click)="countTriplets([ 1,3,4,4,4,4,4,4,8,10,12,16,16,16,16,16,48,48,48,48,64,64,64,64,64,64,64,256,256,256,256 ],2)">Conta troika teste normal </button>
+  <button (click)="countTripletsAlpha([ 1,3,4,4,4,4,4,4,8,10,12,16,16,16,16,16,48,48,48,48,64,64,64,64,64,64,64,256,256,256,256 ],2)">Conta troika teste alpha </button>
+  <button (click)="countTriplets([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],1)">Conta troika teste </button>
+  <button (click)="countTripletsAlpha([1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],1)">Conta troika teste </button>
+  <button (click)="countTriplets([1,1,1,1,1,1,1,1,1,1,1],1)">Conta troika teste </button>
+  <button (click)="countTripletsAlpha([1,1,1,1,1,1,1,1,1,1,1],1)">Conta troika teste </button>
+  <button (click)="countTriplets([1,1,1,1,1,1,1,1,1,1],1)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsAlpha([1,1,1,1,1,1,1,1,1,1],1)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsZeta([1,1,1,1,1,1,1,1,1,1],1)">Conta troika teste min 10 </button>
+
+  <button (click)="countTriplets([1,100,10000,100000,1000000,1000000000,1000000000,10000000,100000,100000000,1000,100000000,1000,1000,10000000,10000,100,1000,1,100,100000,1,10000,1000000,100,1000,100,1000000,100000,100000,10000,100,10000000,100000000],1)">Conta troika zeta min 10 </button>
+  <button (click)="countTripletsAlpha([1,100,10000,100000,1000000,1000000000,1000000000,10000000,100000,100000000,1000,100000000,1000,1000,10000000,10000,100,1000,1,100,100000,1,10000,1000000,100,1000,100,1000000,100000,100000,10000,100,10000000,100000000],1)">Conta troika zeta min 10 </button>
+  <button (click)="countTripletsZeta([1,100,10000,100000,1000000,1000000000,1000000000,10000000,100000,100000000,1000,100000000,1000,1000,10000000,10000,100,1000,1,100,100000,1,10000,1000000,100,1000,100,1000000,100000,100000,10000,100,10000000,100000000],1)">Conta troika zeta min 10 </button>
+
+
+
+  <button (click)="countTriplets([2,4,8,10,12,16,20,22,32],4)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsAlpha([2,4,8,10,12,16,20,22,32],4)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsZeta([2,4,8,10,12,16,20,22,32],4)">Conta troika teste min 10 </button>
+
+  <button (click)="countTriplets([1,10,1,10,1,1,1,10,10],1)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsAlpha([1,10,1,10,1,1,1,10,10],1)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsZeta([1,10,1,10,1,1,1,10,10],1)">Conta troika teste min 10 </button>
+
+  <button (click)="countTriplets([1,11,26,11,33,3,99,99],3)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsAlpha([1,11,26,11,33,3,99,99],3)">Conta troika teste min 10 </button>
+  <button (click)="countTripletsZeta([1,11,26,11,33,3,99,99],3)">Conta troika teste min 10 </button>
+
+  <button (click)="countTriplets([ 1, 3, 9, 9,27,81 ],3)">Conta troika 3 </button>
+  <button (click)="countTripletsAlpha([ 1, 3, 9, 9,27,81 ],3)">Conta troika 3 </button>
+  <button (click)="countTripletsZeta([ 1, 3, 9, 9,27,81 ],3)">Conta troika 3 </button>
+
+
+</div>

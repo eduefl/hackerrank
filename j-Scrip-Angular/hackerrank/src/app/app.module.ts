@@ -17,6 +17,7 @@ import { ArrayManipulationComponent } from './array-manipulation/array-manipulat
 import { RansonNoteComponent } from './ranson-note/ranson-note.component';
 import { TwoStringsComponent } from './two-strings/two-strings.component';
 import { SherlockComponent } from './sherlock/sherlock.component';
+import { CountTriplesComponent } from './count-triples/count-triples.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { SherlockComponent } from './sherlock/sherlock.component';
     ArrayManipulationComponent,
     RansonNoteComponent,
     TwoStringsComponent,
-    SherlockComponent
+    SherlockComponent,
+    CountTriplesComponent
   ],
   imports: [
     BrowserModule,
