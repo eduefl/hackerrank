@@ -18,6 +18,7 @@ import { RansonNoteComponent } from './ranson-note/ranson-note.component';
 import { TwoStringsComponent } from './two-strings/two-strings.component';
 import { SherlockComponent } from './sherlock/sherlock.component';
 import { CountTriplesComponent } from './count-triples/count-triples.component';
+import { FrequencyQueriesComponent } from './frequency-queries/frequency-queries.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { CountTriplesComponent } from './count-triples/count-triples.component';
     RansonNoteComponent,
     TwoStringsComponent,
     SherlockComponent,
-    CountTriplesComponent
+    CountTriplesComponent,
+    FrequencyQueriesComponent
   ],
   imports: [
     BrowserModule,
