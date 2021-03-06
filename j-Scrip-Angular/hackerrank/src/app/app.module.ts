@@ -20,6 +20,7 @@ import { SherlockComponent } from './sherlock/sherlock.component';
 import { CountTriplesComponent } from './count-triples/count-triples.component';
 import { FrequencyQueriesComponent } from './frequency-queries/frequency-queries.component';
 import { BubleSortComponent } from './buble-sort/buble-sort.component';
+import { MarkandToysComponent } from './markand-toys/markand-toys.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { BubleSortComponent } from './buble-sort/buble-sort.component';
     SherlockComponent,
     CountTriplesComponent,
     FrequencyQueriesComponent,
-    BubleSortComponent
+    BubleSortComponent,
+    MarkandToysComponent
   ],
   imports: [
     BrowserModule,
