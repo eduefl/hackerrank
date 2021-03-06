@@ -19,6 +19,7 @@ import { TwoStringsComponent } from './two-strings/two-strings.component';
 import { SherlockComponent } from './sherlock/sherlock.component';
 import { CountTriplesComponent } from './count-triples/count-triples.component';
 import { FrequencyQueriesComponent } from './frequency-queries/frequency-queries.component';
+import { BubleSortComponent } from './buble-sort/buble-sort.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { FrequencyQueriesComponent } from './frequency-queries/frequency-queries
     TwoStringsComponent,
     SherlockComponent,
     CountTriplesComponent,
-    FrequencyQueriesComponent
+    FrequencyQueriesComponent,
+    BubleSortComponent
   ],
   imports: [
     BrowserModule,
