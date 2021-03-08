@@ -23,6 +23,7 @@ import { BubleSortComponent } from './buble-sort/buble-sort.component';
 import { MarkandToysComponent } from './markand-toys/markand-toys.component';
 import { FraudulentActivityNotificationsComponent } from './fraudulent-activity-notifications/fraudulent-activity-notifications.component';
 import { SortingComparatorComponent } from './sorting-comparator/sorting-comparator.component';
+import { MergeSortCountingInversionsComponent } from './merge-sort-counting-inversions/merge-sort-counting-inversions.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { SortingComparatorComponent } from './sorting-comparator/sorting-compara
     BubleSortComponent,
     MarkandToysComponent,
     FraudulentActivityNotificationsComponent,
-    SortingComparatorComponent
+    SortingComparatorComponent,
+    MergeSortCountingInversionsComponent
   ],
   imports: [
     BrowserModule,
