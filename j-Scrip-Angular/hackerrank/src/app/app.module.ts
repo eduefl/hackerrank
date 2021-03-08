@@ -21,6 +21,7 @@ import { CountTriplesComponent } from './count-triples/count-triples.component';
 import { FrequencyQueriesComponent } from './frequency-queries/frequency-queries.component';
 import { BubleSortComponent } from './buble-sort/buble-sort.component';
 import { MarkandToysComponent } from './markand-toys/markand-toys.component';
+import { FraudulentActivityNotificationsComponent } from './fraudulent-activity-notifications/fraudulent-activity-notifications.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import { MarkandToysComponent } from './markand-toys/markand-toys.component';
     CountTriplesComponent,
     FrequencyQueriesComponent,
     BubleSortComponent,
-    MarkandToysComponent
+    MarkandToysComponent,
+    FraudulentActivityNotificationsComponent
   ],
   imports: [
     BrowserModule,
