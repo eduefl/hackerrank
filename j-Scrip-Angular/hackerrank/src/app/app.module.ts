@@ -22,6 +22,7 @@ import { FrequencyQueriesComponent } from './frequency-queries/frequency-queries
 import { BubleSortComponent } from './buble-sort/buble-sort.component';
 import { MarkandToysComponent } from './markand-toys/markand-toys.component';
 import { FraudulentActivityNotificationsComponent } from './fraudulent-activity-notifications/fraudulent-activity-notifications.component';
+import { SortingComparatorComponent } from './sorting-comparator/sorting-comparator.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { FraudulentActivityNotificationsComponent } from './fraudulent-activity-
     FrequencyQueriesComponent,
     BubleSortComponent,
     MarkandToysComponent,
-    FraudulentActivityNotificationsComponent
+    FraudulentActivityNotificationsComponent,
+    SortingComparatorComponent
   ],
   imports: [
     BrowserModule,
