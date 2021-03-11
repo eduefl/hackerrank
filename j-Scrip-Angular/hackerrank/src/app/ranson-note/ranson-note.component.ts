@@ -23,7 +23,6 @@ export class RansonNoteComponent implements OnInit {
     aNote = note.split(' ');
     for (const cWord of aNote) {
       nAscan = -1;
-      nAscan = aMagazine.findIndex(x => x === cWord);//ascan
       if (nAscan === -1) {
         lRet = false;
         break;
