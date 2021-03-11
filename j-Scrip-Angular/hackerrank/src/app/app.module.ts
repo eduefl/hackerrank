@@ -24,6 +24,7 @@ import { MarkandToysComponent } from './markand-toys/markand-toys.component';
 import { FraudulentActivityNotificationsComponent } from './fraudulent-activity-notifications/fraudulent-activity-notifications.component';
 import { SortingComparatorComponent } from './sorting-comparator/sorting-comparator.component';
 import { MergeSortCountingInversionsComponent } from './merge-sort-counting-inversions/merge-sort-counting-inversions.component';
+import { LilisHomeworkComponent } from './lilis-homework/lilis-homework.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { MergeSortCountingInversionsComponent } from './merge-sort-counting-inve
     MarkandToysComponent,
     FraudulentActivityNotificationsComponent,
     SortingComparatorComponent,
-    MergeSortCountingInversionsComponent
+    MergeSortCountingInversionsComponent,
+    LilisHomeworkComponent
   ],
   imports: [
     BrowserModule,
