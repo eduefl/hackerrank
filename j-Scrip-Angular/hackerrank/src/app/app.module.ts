@@ -25,6 +25,7 @@ import { FraudulentActivityNotificationsComponent } from './fraudulent-activity-
 import { SortingComparatorComponent } from './sorting-comparator/sorting-comparator.component';
 import { MergeSortCountingInversionsComponent } from './merge-sort-counting-inversions/merge-sort-counting-inversions.component';
 import { LilisHomeworkComponent } from './lilis-homework/lilis-homework.component';
+import { MakingAnagramsComponent } from './making-anagrams/making-anagrams.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { LilisHomeworkComponent } from './lilis-homework/lilis-homework.componen
     FraudulentActivityNotificationsComponent,
     SortingComparatorComponent,
     MergeSortCountingInversionsComponent,
-    LilisHomeworkComponent
+    LilisHomeworkComponent,
+    MakingAnagramsComponent
   ],
   imports: [
     BrowserModule,
