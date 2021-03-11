@@ -24,7 +24,8 @@ export class RansonNoteComponent implements OnInit {
     for (const cWord of aNote) {
       nAscan = -1;
       nAscan = aMagazine.findIndex(x => x === cWord);//ascan
-      if (nAscan === -1) {        lRet = false;
+      if (nAscan === -1) {
+        lRet = false;
         break;
       } else {
         aMagazine.splice(nAscan, 1);
