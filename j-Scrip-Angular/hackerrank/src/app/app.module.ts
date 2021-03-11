@@ -26,6 +26,7 @@ import { SortingComparatorComponent } from './sorting-comparator/sorting-compara
 import { MergeSortCountingInversionsComponent } from './merge-sort-counting-inversions/merge-sort-counting-inversions.component';
 import { LilisHomeworkComponent } from './lilis-homework/lilis-homework.component';
 import { MakingAnagramsComponent } from './making-anagrams/making-anagrams.component';
+import { AlternatingCharactersComponent } from './alternating-characters/alternating-characters.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { MakingAnagramsComponent } from './making-anagrams/making-anagrams.compo
     SortingComparatorComponent,
     MergeSortCountingInversionsComponent,
     LilisHomeworkComponent,
-    MakingAnagramsComponent
+    MakingAnagramsComponent,
+    AlternatingCharactersComponent
   ],
   imports: [
     BrowserModule,
