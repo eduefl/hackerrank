@@ -85,4 +85,3 @@ export class LilisHomeworkComponent implements OnInit {
 }
 
 
-E2_EMIS1
