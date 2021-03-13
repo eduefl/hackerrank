@@ -28,6 +28,7 @@ export class AlternatingCharactersComponent implements OnInit {
 
     }
 
+
     console.log(nRet);
 
     return nRet;
