@@ -27,6 +27,7 @@ import { MergeSortCountingInversionsComponent } from './merge-sort-counting-inve
 import { LilisHomeworkComponent } from './lilis-homework/lilis-homework.component';
 import { MakingAnagramsComponent } from './making-anagrams/making-anagrams.component';
 import { AlternatingCharactersComponent } from './alternating-characters/alternating-characters.component';
+import { SherlockValidStringComponent } from './sherlock-valid-string/sherlock-valid-string.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { AlternatingCharactersComponent } from './alternating-characters/alterna
     MergeSortCountingInversionsComponent,
     LilisHomeworkComponent,
     MakingAnagramsComponent,
-    AlternatingCharactersComponent
+    AlternatingCharactersComponent,
+    SherlockValidStringComponent
   ],
   imports: [
     BrowserModule,
