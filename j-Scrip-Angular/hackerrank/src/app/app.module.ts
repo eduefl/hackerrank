@@ -28,6 +28,7 @@ import { LilisHomeworkComponent } from './lilis-homework/lilis-homework.componen
 import { MakingAnagramsComponent } from './making-anagrams/making-anagrams.component';
 import { AlternatingCharactersComponent } from './alternating-characters/alternating-characters.component';
 import { SherlockValidStringComponent } from './sherlock-valid-string/sherlock-valid-string.component';
+import { SpeciaStringAgainComponent } from './specia-string-again/specia-string-again.component';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,8 @@ import { SherlockValidStringComponent } from './sherlock-valid-string/sherlock-v
     LilisHomeworkComponent,
     MakingAnagramsComponent,
     AlternatingCharactersComponent,
-    SherlockValidStringComponent
+    SherlockValidStringComponent,
+    SpeciaStringAgainComponent
   ],
   imports: [
     BrowserModule,
