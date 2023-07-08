@@ -29,6 +29,8 @@ import { MakingAnagramsComponent } from './making-anagrams/making-anagrams.compo
 import { AlternatingCharactersComponent } from './alternating-characters/alternating-characters.component';
 import { SherlockValidStringComponent } from './sherlock-valid-string/sherlock-valid-string.component';
 import { SpeciaStringAgainComponent } from './specia-string-again/specia-string-again.component';
+import { ProductlistComponent } from './product/productlist/productlist.component';
+import { CommonChildComponent } from './common-child/common-child.component';
 
 @NgModule({
   declarations: [
@@ -58,7 +60,9 @@ import { SpeciaStringAgainComponent } from './specia-string-again/specia-string-
     MakingAnagramsComponent,
     AlternatingCharactersComponent,
     SherlockValidStringComponent,
-    SpeciaStringAgainComponent
+    SpeciaStringAgainComponent,
+    ProductlistComponent,
+    CommonChildComponent
   ],
   imports: [
     BrowserModule,
