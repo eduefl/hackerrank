@@ -16,7 +16,7 @@ export class CommonChildComponent implements OnInit {
     alert(this.commonChild(a,b))
   }
 
-  commonChild(s1t: string, s2: string) {
+  commonChild(s1: string, s2: string) {
     // Write your code here
     let nTam = 0
     let a1 = []
